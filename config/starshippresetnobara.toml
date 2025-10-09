@@ -1,6 +1,6 @@
 add_newline = false
 
-palette = "catppuccin_macchiato"
+palette = "custom_blezecon"
 format = """
 [░▒▓](crust)\
 $os\
@@ -123,17 +123,30 @@ style = 'fg:lavender bg:crust'
 disabled = false
 
 [os.symbols]
+
+Windows = "󰍲 "
+Alpine = " "
+Android = " "
 Arch = " "
+Artix = "󰣇 "
+CentOS = " "
 Debian = " "
+EndeavourOS = " "
 Fedora = " "
 FreeBSD = " "
+Gentoo = "󰣨 "
 Linux = " "
-Macos = " "
+Macos = "󰀵 "
+Mint = "󰣭 "
+Manjaro = " "
 NixOS = "󱄅 "
 Pop = " "
 Raspbian = " "
+Redhat = "󱄛 "
+RedHatEnterprise = "󱄛 "
 Ubuntu = " "
 Unknown = " "
+SUSE = " "
 Nobara = " "
 
 # palette tables should be last in the config ⚓️
@@ -248,3 +261,40 @@ surface0 = "#313244"
 base = "#1e1e2e"
 mantle = "#181825"
 crust = "#11111b"
+
+[palettes.custom_blezecon]
+# Main colors
+rosewater = "#ffa366"  # Light orange-peach
+flamingo = "#ff8c42"   # Bright orange
+pink = "#ff6b35"       # Orange-red
+mauve = "#e8590c"      # Deep orange
+red = "#d84315"        # Dark orange-red
+maroon = "#bf360c"     # Deep red-orange
+peach = "#ff7043"      # Coral orange
+yellow = "#ffab40"     # Warm amber
+green = "#7ccef4"      # Cyan (wing highlights)
+teal = "#00acc1"       # Teal blue
+sky = "#0097a7"        # Sky blue
+sapphire = "#00838f"   # Deep cyan
+blue = "#006064"       # Dark cyan-blue
+lavender = "#7ecff5"   # Bright cyan
+
+# Text colors
+text = "#e0e0e0"       # Light gray
+subtext1 = "#bdbdbd"   # Medium light gray
+subtext0 = "#9e9e9e"   # Medium gray
+
+# Overlay colors
+overlay2 = "#757575"   # Medium dark gray
+overlay1 = "#616161"   # Dark gray
+overlay0 = "#424242"   # Darker gray
+
+# Surface colors (matching the dark background)
+surface2 = "#2c2c3c"   # Dark purple-gray
+surface1 = "#212130"   # Darker purple-gray
+surface0 = "#1a1a28"   # Deep purple-gray
+
+# Base colors
+base = "#131320"       # Very dark purple-gray
+mantle = "#0d0d18"     # Almost black purple
+crust = "#080810"      # Deep black
