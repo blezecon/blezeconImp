@@ -1,7 +1,6 @@
 ## ~/.config/nvim/lua/plugins/autosave.lua (path)
 
 
-```bash
 return {
   "okuuva/auto-save.nvim",
   event = { "InsertLeave", "TextChanged" },
@@ -26,4 +25,3 @@ return {
       debounce_delay = 1000, -- delay in milliseconds
   },
 }
-```
