@@ -1,0 +1,7 @@
+crf=36 preset=4 ab=128k acodec=aac channels=2 f=mp4 g=150 real_time=-1 svtav1-params=scd=1:enable-dg=1:pred-struct=2:lp=0:tile-columns=1:fast-decode=0:tune=0:film-grain=0:film-grain-denoise=0:enable-overlays=1:enable-variance-boost=1:variance-boost-strength=1:variance-octile=7:enable-qm=1:qm-min=0 threads=0 vcodec=h264_vaapi
+
+
+crf - Quality. Lower number = more quality.
+preset - Encoder speed. Higher number = faster encoding, but less quality
+ab - Audio bitrate - use 128k for standard quality, 192k for a very high quality
+channels - 2 for stereo audio
